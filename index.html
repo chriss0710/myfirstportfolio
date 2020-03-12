@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+
+	<head>
+		
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="mon premier site internet.css">
+		
+		<title>Mon premier Portfolio</title>
+
+	</head>
+
+	
+
+	<body>
+		
+
+		<header>
+			
+			
+			<nav class="nav" role="navigation">
+			
+
+				<ul class="menu">
+
+
+					<h1>CV Zeghouani Christopher</h1>
+				
+				<li><a href="#compétences">Compétences</a></li>
+				<li><a href="#expériences">Expériences</a></li>
+				<li><a href="#formation">Formation</a></li>
+				<li><a href="#sujet">A mon sujet</a></li>
+				<li><a href="#contact">Contactez-moi</a></li>
+			
+				</ul>
+			</nav>
+	
+			</header>	
+
+<div class="white">
+	<div class="bloc">
+
+	<div class="photo">
+	<img src="https://zupimages.net/up/20/11/yp35.jpg" alt="" /></a>
+	</div>
+
+
+
+		<h2>Zeghouani Christopher</h2>
+		<section>Actuellement en reconversion professionnelle</section>
+ 
+	</div>
+</div>
+
+<h3 id="compétences"> Mes<span> compéten</span>ces</h3>
+
+		
+				<ol id="ol1">
+					<li><b><img src="https://zupimages.net/up/20/11/l5hi.png" alt="" /></a>Languages & Logiciels</b></li>
+
+					<div class="v">
+					<li>Language C</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>Javascript</li>
+					<li>Word</li>
+					</div>
+				</ol>
+				
+
+				<ol id="ol1">
+					<li><b><img src="https://zupimages.net/up/20/11/l5hi.png" alt="" /></a>Savoir-être</b></li>
+				
+					<div class="v">
+					<li>Dynamique</li>
+					<li>Esprit d'équipe</li>
+					<li>Sens de l'écoute</li>
+					<li>Déterminé</li>
+					<li>Créatif</li>
+					</div>
+				</ol>
+
+				<ol id="ol1">
+					<li><b><img src="https://zupimages.net/up/20/11/l5hi.png" alt="" /></a>Langues</b></li>
+					
+					<div class="v">
+					<li>Français</li>
+					<li>Anglais</li>
+					</div>
+				
+				</ol>
+
+
+
+<h3 id="expériences"> Mon expé<span>riences profes</span>sionnelle</h3>
+
+	<p>
+			De 2010 à 2014 - Interimaire dans plusieurs domaine du batiment ( Plaquiste, peintre, maconnerie etc..</br>
+			
+			De 2014 à 2016 - Poseur d'abris piscine et chauffeur PL au sein du groupe ABRISUD à l'isle jourdain</br>
+			
+			De 2016 à 2019 - Chauffeur Livreur PL dans le domaine du frais et du surgelés dans le groupe Brake France à Montegut</br>
+
+			De 2019 à 2020 - Peintre aéronautique dans l'entreprise Satys</br>
+
+			De 2020 à maintenent - Reconversion professionnelle pour devenir dévelloppeur web
+
+	</p>
+
+
+
+<h3 id="formation"> Ma<span> format</span>ion </h3>
+
+
+		<p>
+			
+
+			J'ai tout appris sur Openclassrooms de A à Z
+
+		</p>
+		<p><a id="cv" href="Mon Cv.html" title="Télécharger mon cv" target="_blank"> Télécharger mon CV </a></p>
+			
+
+
+</a>
+
+<div class="bloc"> 
+		<h4 id="sujet"> A <span class="white">mon suj</span>et </h4>
+
+			<div>
+
+			<p>Actuellement en reconvertion professionelle pour devenir developpeur web je saurais vous satisfaire de mes compétences et de ma rapidité, du à mes anciennes expériences a apprendre peu importe le defi demandé.</p>
+			</div>
+	</div>
+
+
+<h3 id="contact">Co<span>ntactez-m</span>oi</h3>
+
+
+	
+	<form method="post">
+        <label>Nom</label>
+        <input type="text" name="nom" required>
+        <label>Email</label>
+        <input type="email" name="email" required>
+        <label>Numéro de téléphone</label>
+        <input type="Numéro" name="numero">
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+        <input type="submit">
+    </form>
+
+<?php
+    $retour = mail('christopher.zeghouani@hotmail.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From : christopher.zeghouani@hotmail.fr');
+    if ($retour) {
+        echo 'Votre message a bien été envoyé' Votre message a bien été envoyé.
+        <br/>
+
+
+
+<footer> 
+        
+        <ol id="ol2">
+
+        	<li div class="title">Adresses</li>
+        	<li> 2 le village</li>
+        	<li>32490 Frégouville</li>
+        	<li>France</li>
+        	
+
+        </ol>
+
+        <ol id="ol2">
+        	<li div class="title">Présence en ligne</li>
+        	<li>
+        		<div class="reseaux">
+        		<a href="https://www.facebook.com/christopher.zeghouani" target="_blank"><img src="https://zupimages.net/up/20/11/6si2.jpg" alt="Facebook" /></a>
+        		<a href="https://www.instagram.com/chriss.zzr/?hl=fr" target="_blank"><img src="https://zupimages.net/up/20/11/nmuk.jpg" alt="Instagram" /></a>
+        		</div>
+        </li>
+
+        </ol>
+
+        <ol id="ol2">
+        	<li div class="title"> Au sujet du site </li>
+        	<li>Site réaliser par moi-même</li>
+        </ol>
+
+</footer>
+
+	</body>
+
+
+	</html>
